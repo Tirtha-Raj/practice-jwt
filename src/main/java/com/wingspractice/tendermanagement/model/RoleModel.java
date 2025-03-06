@@ -15,6 +15,11 @@ public class RoleModel {
 	@Column(unique=true)
 	private String rolename;
 	
+	
+	public RoleModel() {
+		
+	}
+
 	public RoleModel(int id) {
 		this.id = id;
 	}
